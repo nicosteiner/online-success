@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  
+  "name": "1&1 Digital Success Suite",
+  "version": "1.0",
+  "description": "Der 1&1 Website-Checker überprüft, wie gut Ihre Website für Ihren Erfolg im Internet vorbereitet ist und gibt Ihnen Tipps, wie Sie Ihre Website verbessern können",
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "1&1 Digital Success Suite",
+    "default_popup": "src/popup/index.html"
+  },
+  
+  "permissions": [
+    "activeTab"
+  ]
+
+}
